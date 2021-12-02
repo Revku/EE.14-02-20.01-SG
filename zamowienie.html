@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fabryka Żelków</title>
+
+    <link rel="stylesheet" href="./styl9.css">
+</head>
+<body>
+    <section class="nav">
+        <div class="nav__section">
+            <img onclick="link('./')" class="nav__logo" src="./cukierki2.png" alt="Fabryka Żelków">
+        </div>
+        <div class="nav__section">
+            <a href="" class="nav__link">Zamówienie</a>
+        </div>
+    </section>
+    <section class="header">
+        <h2>Zamów nasz produkt</h2>
+    </section>
+    <section class="main">
+        <div class="main__left">
+            <h1>Oferta</h1>
+            <table>
+                <tr>
+                  <th>Kształty</th>
+                  <th>Kolory</th>
+                </tr>
+                <tr>
+                  <td>
+                      <ol>
+                          <li>Miś</li>
+                          <li>Żabka</li>
+                          <li>Serce</li>
+                      </ol>
+                  </td>
+                  <td>
+                      <ol>
+                          <li>Czerwony</li>
+                          <li>Niebieski</li>
+                          <li>Żólty</li>
+                          <li>Inny</li>
+                      </ol>
+                  </td>
+                </tr>
+              </table>
+        </div>
+        <div class="main__right">
+            <label for="">Podaj numer kształtu:</label> <br>
+            <input id="ksztalt" type="number" name="" id=""> <br>
+            <label for="">skopmonuj swój kolor, podaj RGB:</label> <br>
+            <label for="r">R:</label>
+            <input id="r" type="number" name="" id="">
+            <label for="g">G:</label>
+            <input id="g" type="number" name="" id="">
+            <label for="b">B:</label>
+            <input id="b" type="number" name="" id="">
+            <br>
+            <button id="zamow" class="btn">Zamów</button>
+            <br>
+            <p id="result">Wybrany kształt</p>
+            <br>
+            <button id="color">Wybrany kolor</button>
+        </div>
+    </section>
+
+    <section class="footer">
+        Autor Strony: 0000000000
+    </section>
+
+    <script src="./index.js"></script>
+</body>
+</html>
